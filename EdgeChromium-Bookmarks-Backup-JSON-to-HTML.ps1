@@ -16,11 +16,7 @@ $EdgeRelease=$EdgeStable
 $JSON_File_Path = "$($env:localappdata)\Microsoft\$($EdgeRelease)\User Data\Default\Bookmarks"
 
 ### Directory where to store HTML-Export (Backup-Destination-Directory)
-#$HTML_File_Dir = "C:\Temp"
-#$HTML_File_Dir = "$($env:userprofile)\backup"
-#$HTML_File_Dir = "$($env:userprofile)"
-#$HTML_File_Dir = "$($env:userprofile)\Documents"
-# $HTML_File_Dir = "$($env:userprofile)\.devel\ohouigheighi\dotfiles-windows\Edge"
+# $HTML_File_Dir = "$($env:userprofile)\backup"
 $HTML_File_Dir = "$($env:userprofile)\.pkm\obsidian\mpmvault\Web Saves\Edge Bookmarks Backups"
 
 ### Filename of HTML-Export (Backup-Filename), choose with YYYY-MM-DD_HH-MM-SS Date-Suffix or fixed Filename
